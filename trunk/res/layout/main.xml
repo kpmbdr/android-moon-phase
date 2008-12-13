@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.moon_phase.Slider 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slider_view" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    >
+</com.google.android.moon_phase.Slider>
+
+<!--       
+      android:id="@+id/moonImage"
+      android:layout_width="wrap_content" 
+	  android:layout_height="wrap_content"
+	  android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true"	  
+	  android:src="@drawable/moon10"
+
+	    android:id="@+id/phaseText"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text="@string/hello"
+-->
