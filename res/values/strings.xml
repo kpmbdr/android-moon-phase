@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MoonPhase</string>
+    <string name="app_name">Moon Phase</string>
+    
+    <string name="new_moon">New moon</string>
+    <string name="first_quarter">First quarter</string>    
+    <string name="full_moon">Full moon</string>
+    <string name="third_quarter">Third quarter</string>    
+    <string name="waxing_crescent">Waxing crescent</string>
+    <string name="waxing_gibbous">Waxing gibbous</string>    
+    <string name="waning_gibbous">Waning gibbous</string>
+    <string name="waning_crescent">Waning crescent</string>    
+
+</resources>
