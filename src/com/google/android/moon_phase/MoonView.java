@@ -7,10 +7,10 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.animation.Animation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.LinearLayout.LayoutParams;
 
 public class MoonView extends LinearLayout {
 
@@ -25,6 +25,11 @@ public class MoonView extends LinearLayout {
   private TextView mPhaseText;  
   private ImageView mMoonImage;
   private TextView mDateText;  
+  
+  public Animation nextInAnimation;  
+  public Animation nextOutAnimation;  
+  public Animation previousInAnimation;  
+  public Animation previousOutAnimation;  
     
   public MoonView(Context context, AttributeSet attrs) {
     super(context, attrs);
@@ -98,7 +103,6 @@ public class MoonView extends LinearLayout {
     int year = mCalendar.get(Calendar.YEAR);
     int month = mCalendar.get(Calendar.MONTH) + 1;
     int day = mCalendar.get(Calendar.DAY_OF_MONTH);
-    int hours = mCalendar.get(Calendar.HOUR_OF_DAY);
     
    // Convert the year into the format expected by the algorithm.
    double transformedYear = year - Math.floor((12 - month) / 10);

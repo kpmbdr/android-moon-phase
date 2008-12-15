@@ -12,4 +12,6 @@
     <string name="waning_gibbous">Waning gibbous</string>
     <string name="waning_crescent">Waning crescent</string>    
 
+    <string name="today">Today</string>    
+    <string name="choose_date">Choose date</string>
 </resources>

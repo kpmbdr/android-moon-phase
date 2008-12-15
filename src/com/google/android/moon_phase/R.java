@@ -44,18 +44,20 @@ public final class R {
         public static final int moon9=0x7f02001e;
     }
     public static final class id {
-        public static final int slider_view=0x7f050000;
+        public static final int main_view=0x7f050000;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
+        public static final int choose_date=0x7f04000b;
         public static final int first_quarter=0x7f040003;
         public static final int full_moon=0x7f040004;
         public static final int hello=0x7f040000;
         public static final int new_moon=0x7f040002;
         public static final int third_quarter=0x7f040005;
+        public static final int today=0x7f04000a;
         public static final int waning_crescent=0x7f040009;
         public static final int waning_gibbous=0x7f040008;
         public static final int waxing_crescent=0x7f040006;
